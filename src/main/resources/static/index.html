@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>大数据统计展示大屏</title>
+		<!-- 新 Bootstrap 核心 CSS 文件 -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+		<script src="js/jquery.min.js"></script>
+		<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+		<script src="js/bootstrap.min.js"></script>
+		<link href="css/index.css" rel="stylesheet" />
+	</head>
+	<body>
+		<header>大数据统计展示大屏</header>
+		<div class="container m-20">
+			<div class="row">
+				<div class="col-lg-3">
+					<div class="box1">
+						<div class="title">游戏发行商词云图</div>
+						<div class="box1_con" id="box1"></div>
+					</div>
+					<div class="box2 m-20">
+						<div class="title">各游戏语言适配占比</div>
+						<div class="box2_con" id="box2"></div>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="box3">
+						<div class="title">每年各游戏类型发布数量</div>
+						<div class="box3_con" id="box3"></div>
+					</div>
+					<div class="box4 m-20">
+						<div class="title">各类型游戏总数所占比</div>
+						<div class="box4_con" id="box4"></div>
+					</div>
+				</div>
+				<div class="col-lg-3 box5">
+					<div class="title">每年评分9.0以上的游戏的数量</div>
+					<div class="box5_con">				
+						<div class="box5_con_top" id="box5"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/echarts.min.js"></script>
+		<script type="text/javascript" src="js/echarts-wordcloud.min.js"></script>
+		<script type="text/javascript" src="js/box1.js"></script>
+		<script type="text/javascript" src="js/box2.js"></script>
+		<script type="text/javascript" src="js/box3.js"></script>
+		<script type="text/javascript" src="js/box4.js"></script>
+		<script type="text/javascript" src="js/box5.js"></script>
+	</body>
+</html>
